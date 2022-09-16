@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Open Sans";
+
+}
+
+.nav-top {
+    background-image: linear-gradient(45deg, white, purple);
+
+
+}
+
+img {
+    border: 1px solid rgb(167, 24, 24);
+    outline-offset: 3px;
+    outline: 3px solid red;
+    width: 50px;
+    /*! bu tip resimleri rem ile değilde px ile kullanırız  */
+}
+
+.nav-top .sign-in {
+    float: right;
+    margin: 1.5rem 1rem;
+    color: white;
+
+}
+
+.nav-top .sign-in a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav-top .sign-in .Register:hover {
+    color: black;
+}
+
+.nav-top .sign-in .Login:hover {
+    color: black;
+}
+
+.yazı-tipi {
+    font-weight: 500;
+}
+
+.nav-main {
+    background-color: #ffaa53;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: black;
+    font-family: "DynaPuff", cursive;
+    padding: 20px;
+}
+
+.nav-main a:hover {
+    color: white;
+}
+
+.yazı-tipi {
+    text-align: justify;
+    padding: 2rem;
+    /* text-align: center; */
+
+}
+
+.slack {
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.slack i:hover {
+    font-weight: 1000;
+    color: black;
+
+
+}
